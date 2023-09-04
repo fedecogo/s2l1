@@ -19,9 +19,9 @@ const testo5 ="Null: assenza volontaria del testo"
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 2
- Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
+ Crea una variable chiamata "name1" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
-let name1 ="Federico"
+const name1 ="Federico"
 
 
 
@@ -43,10 +43,17 @@ console.log(x)
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
-*/
 
+Bisognerebbe scrivere :
 name1="Capizzi";
 console.log(name1)
+
+ma ovviamente esce un errore
+
+
+*/
+
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -63,7 +70,7 @@ PS HO MODIFICATO LA TRACCIA PERCHE SUL MIO VS QUANDO FACEVO NAME = CAPIZZI MI CO
 */
 let name2 ="john"
 let name3 ="John"
-console.log("name2 è uguale a name4:", name2 === name3);
+console.log("name2 è uguale a name3:", name2 === name3);
 name2 = name2.toLocaleLowerCase
 name3 = name3.toLocaleLowerCase
 console.log( name2 === name3)
